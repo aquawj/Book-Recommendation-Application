@@ -45,6 +45,7 @@ header{
 }
 
 .main-menu li:hover{
+    cursor: pointer;
     color: #000000;
     /*text-decoration: underline;*/
     border-bottom: #444359 solid 3px;
@@ -77,6 +78,10 @@ header{
 }
 
 /*-------below are side menu styles-------------------------*/
+
+.classification{
+    display: none;
+}
 
 .side-menu {
     width: 200px;
@@ -127,7 +132,7 @@ header{
 
 /*-----genre part-----*/
 
-#genre {
+#genre, #author, #title, #popular {
     position: absolute;
     margin-top: 100px;
 }
